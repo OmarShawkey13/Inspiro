@@ -1,16 +1,86 @@
-# inspiro
+# 🌟 Inspiro
 
-A new Flutter project.
+Inspiro هو تطبيق Flutter يقدم اقتباسات تحفيزية عشوائية بواجهة أنيقة ومظلمة، مصمم لتقديم تجربة ملهمة للمستخدم كل مرة يضغط فيها على زر "اقتباس جديد".
 
-## Getting Started
+![inspiro-screenshot](https://github.com/OmarShawkey13/Inspiro/assets/your_image_path_here) <!-- استبدل هذا برابط لصورة من التطبيق -->
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ المميزات
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- عرض اقتباسات عشوائية من API.
+- تصميم مظلم أنيق (Dark Theme).
+- إمكانية التبديل بين Light / Dark Mode.
+- استخدام `AnimatedSwitcher` لظهور سلس للاقتباس.
+- إدارة الحالة باستخدام `flutter_bloc`.
+- دعم كامل لـ Arabic UI.
+- تنظيم الكود بـ Clean Architecture.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📦 التقنيات المستخدمة
+
+- ✅ Flutter (3.x)
+- ✅ flutter_bloc
+- ✅ Dio
+- ✅ Responsive UI (LayoutBuilder & custom text scaling)
+- ✅ Test-driven approach
+- ✅ Clean Architecture principles
+
+---
+
+## 🧪 اختبارات
+
+- ✅ اختبار ظهور الاقتباس عند الضغط على الزر.
+- ✅ اختبار حالة عدم وجود اقتباس (عرض رسالة للمستخدم).
+- ✅ اختبار Bloc states (loading, error, success).
+
+---
+
+## 🚀 التشغيل محليًا
+
+```bash
+git clone https://github.com/OmarShawkey13/Inspiro.git
+cd Inspiro
+flutter pub get
+flutter run
+```
+
+---
+
+## 📸 صور من التطبيق
+
+| Main View                        | Loading                                | Quote Loaded                       |
+|----------------------------------|----------------------------------------|------------------------------------|
+| ![main](assets/screens/main.png) | ![loading](assets/screens/loading.png) | ![quote](assets/screens/quote.png) |
+
+> يمكنك تعديل أو رفع الصور داخل مجلد `assets/screens/` وربطها هنا.
+
+---
+
+## 🧠 الهيكلية (Clean Architecture)
+
+```
+lib/
+├── core/
+│   └── utils/, theme/, network/
+├── features/
+│   └── home/
+│       ├── data/
+│       ├── domain/
+│       └── presentation/
+└── main.dart
+```
+
+---
+
+## 👨‍💻 المطور
+
+- **Omar Shawkey**
+- GitHub: [@OmarShawkey13](https://github.com/OmarShawkey13)
+
+---
+
+## 📄 الترخيص
+
+مشروع مفتوح المصدر باستخدام [MIT License](LICENSE).
