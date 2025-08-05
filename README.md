@@ -2,7 +2,7 @@
 
 Inspiro هو تطبيق Flutter يقدم اقتباسات تحفيزية عشوائية بواجهة أنيقة ومظلمة، مصمم لتقديم تجربة ملهمة للمستخدم كل مرة يضغط فيها على زر "اقتباس جديد".
 
-![inspiro-screenshot](https://github.com/OmarShawkey13/Inspiro/assets/your_image_path_here) <!-- استبدل هذا برابط لصورة من التطبيق -->
+![inspiro-screenshot](https://github.com/OmarShawkey13/Inspiro/blob/main/assets/screens/main.jpg) <!-- استبدل هذا برابط لصورة من التطبيق -->
 
 ---
 
